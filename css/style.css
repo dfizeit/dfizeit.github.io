@@ -1,0 +1,75 @@
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+}
+
+#navbar-style {
+  flex-direction: row-reverse;
+}
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  padding: 0;
+}
+
+.tituloNavbar {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+h2#titulo {
+  font-family: "Open Sans", sans-serif;
+}
+
+.boton-carrusel {
+  width: 10%;
+}
+
+.row-quienessomos {
+  display: flex;
+}
+
+#quienesomos {
+  padding-right: 1.5rem;
+}
+
+p.texto-top {
+  padding-top: 1rem;
+}
+
+#quienessomos i {
+  background-color: #4cc9f0;
+  width: 25.5rem;
+  padding-top: 1rem;
+  text-align: start;
+}
+
+#card-destacados {
+  background-color: black;
+}
+
+h5.card-title {
+  color: white;
+}
+
+p.card-text {
+  color: white;
+}
+
+.card-body {
+  background-color: #4cc9f0;
+}
+
+footer {
+  color: white;
+}
+
+.footer {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
